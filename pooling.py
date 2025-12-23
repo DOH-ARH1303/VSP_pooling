@@ -118,3 +118,12 @@ for i in range(len(df)):
 # Print clusters
 for idx, c in enumerate(clusters, 1):
     print(f"{idx}: {c}") 
+
+'''
+For each sample, determine which other sample it is closest to in Ct value. 
+    If equal distance from multiple other samples, look at other variables (conc., etc.)
+Check that it is less than 3 Ct away.
+Assign group number. 
+
+For next sample, check for closest sample, see if group already exists, make new one if it doesn't.
+'''
