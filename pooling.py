@@ -126,4 +126,5 @@ Check that it is less than 3 Ct away.
 Assign group number. 
 
 For next sample, check for closest sample, see if group already exists, make new one if it doesn't.
+If no other samples within 3 Ct, make new group. Can add negative to this group.
 '''
